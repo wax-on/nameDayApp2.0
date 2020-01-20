@@ -1,3 +1,9 @@
+/**
+ *
+ *  how to fetch api from abalin.net
+ */
+
+// by name
 const dayName = async query => {
   const name = await fetch(
     `https://api.abalin.net/getdate?name=${query}&country=se`
@@ -12,6 +18,7 @@ const dayName = async query => {
   return response;
 };
 
+// by date
 const getDate = async (month, day) => {
   const response = await fetch(
     `https://api.abalin.net/namedays?country=se&month=${month}&day=${day}`

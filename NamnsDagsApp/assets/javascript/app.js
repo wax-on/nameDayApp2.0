@@ -1,3 +1,7 @@
+/**
+ * working app and fetch
+ */
+
 // get name
 
 document.querySelector("#search-form").addEventListener("submit", e => {
