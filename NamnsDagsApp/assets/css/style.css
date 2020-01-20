@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  background-color: lightgray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(41, 41, 41);
+  font-size: 3rem;
+  padding: 1rem;
+}
+p {
+  color: rgb(41, 41, 41);
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  background-color: lightsalmon;
+  border: 1px solid lightslategray;
+}
+.btn:hover {
+  background-color: rgb(255, 112, 56);
+}
+#nameday {
+  margin-bottom: 1rem;
+}
+.form-control {
+  letter-spacing: 4px;
+}
+
+.custom-select {
+  background-color: rgb(101, 196, 188);
+  border: none;
+  margin: auto;
+}
+
+#search-form {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+#search-form #query-wrapper {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+#search-form #query {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  margin-right: 1rem;
+}
+
+#search-form #query:focus {
+  box-shadow: none;
+  border-bottom-color: #777;
+}
+
+#search-results .col {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+  border: none;
+  text-align: center;
+}
+.card-body .output h6 {
+  color: rgb(41, 41, 41);
+  font-size: 1rem;
+  letter-spacing: 0rem;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.mb-4 {
+  margin: auto;
+}
+
+.input-group .custom-select:not(:last-child) {
+  margin-right: 1rem;
+  border: 1px solid lightslategray;
+  border-radius: 0.3rem;
+  letter-spacing: 3px;
+}
+
+.mb-3 {
+  max-width: 50%;
+  margin: auto;
+}
+.Thanks {
+  font-size: 0.5rem;
+  text-align: right;
+  margin-right: 20px;
+}
